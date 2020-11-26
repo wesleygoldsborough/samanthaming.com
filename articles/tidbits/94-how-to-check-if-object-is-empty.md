@@ -122,7 +122,7 @@ isEmptyObject([])   // false
 🚨But watch out! These values will throw an error.
 
 ```javascript
-// TypeError: Cannot covert undefined or null ot object
+// TypeError: Cannot covert undefined or null to object
 goodEmptyCheck(undefined);
 goodEmptyCheck(null);
 ```
@@ -169,7 +169,7 @@ isObjectEmpty({});           // true ✅
 isObjectEmpty(new Object()); // true ✅
 ```
 
-Excellent, it doesn't get trick by our constructor objects 😉
+Excellent, it doesn't get tricked by our constructor objects 😉
 
 <!-- prettier-ignore -->
 ```javascript
